@@ -222,15 +222,21 @@ li{
    background-size: cover;
    color: white;
 }
-.right-box3{
-background-image: url(img1.svg);
-width: 97%;
-height: 71%;
-border-radius: 15px;
-background-repeat: no-repeat;
-background-size: cover;
-margin-top: 3vh;
+
+.right-box3{width: 37vw;
+height: 51vh;
 }
+
+#imgsource{
+    width: 97%;
+    height: 100%;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+
+
 
 #time-keyword{
     font-size:4vh;
@@ -246,7 +252,7 @@ margin-top: 3vh;
 @media screen and (max-width: 600px){
     .clock {
         background-image: url(clock_logo@2x.png);
-        background-size:contain;
+        background-size:cover;
         background-repeat: no-repeat;
         width: 66vw;
         min-height: 14vh;
